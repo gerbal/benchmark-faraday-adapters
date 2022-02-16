@@ -1,7 +1,23 @@
 # frozen_string_literal: true
-source "https://rubygems.org"
 
-gem "thin"
-gem "rack"
-gem "faraday", "1.9.3"
-gem "typhoeus", "1.4.0"
+source 'https://rubygems.org'
+
+gem 'em-http-request'
+gem 'em-synchrony'
+gem 'excon'
+gem 'faraday-em_http'
+gem 'faraday-em_synchrony'
+gem 'faraday-excon'
+gem 'faraday-http'
+gem 'faraday-httpclient'
+gem 'faraday-net_http_persistent'
+gem 'faraday-net_http'
+gem 'faraday-patron'
+gem 'faraday', '1.9.3'
+gem 'httpclient'
+gem 'httpx'
+gem 'net-http-persistent'
+gem 'patron'
+gem 'rack'
+gem 'thin'
+gem 'typhoeus'
